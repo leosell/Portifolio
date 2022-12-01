@@ -30,6 +30,7 @@
 .containerSubTitulo {
     width: 60%;
     padding-top: 100px;
+    padding-left: 50px;
 }
 
 .containerSubTitulo > h3 {
