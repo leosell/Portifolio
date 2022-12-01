@@ -28,17 +28,18 @@
 }
 
 .containerSubTitulo {
-    width: 60%;
+    width: 70%;
     padding-top: 100px;
-    padding-left: 50px;
 }
 
 .containerSubTitulo > h3 {
     font-size: 20px;
     font-family: 'League Spartan', sans-serif;
+    margin-left: 140px;
 }
 
 .icones {
     display: flex;
     gap: 10px;
+    margin-left: 140px;
 }
