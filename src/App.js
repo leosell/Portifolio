@@ -1,9 +1,8 @@
 import Home from './screens/Home/Home'
-import './App.css'
 
 const App = () => {
   return (
-    <div className='App'>
+    <div className="bg-[url('../assets/Rectangle.png')] text-white">
       <Home />
     </div>
   )

@@ -1,9 +1,0 @@
-.Logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Logo > img {
-    width: 67.5%;
-}

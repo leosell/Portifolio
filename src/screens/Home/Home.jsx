@@ -1,18 +1,17 @@
 import Header from '../../components/Header'
 import Logo from '../../components/Logo';
 import Conteudo from '../../components/Conteudo';
-import './index.css'
 
 const Home = () => {
     return (
-        <div className="container">
+        <div>
             <Header />
-            <main className='conteudoMain'>
-                <section className='sectionConteudo'>
+            <main className="flex pt-20">
+                <section className="w-2/4 py-52 pl-44">
                     <Conteudo />
                 </section>
 
-                <section className='sectionImage'>
+                <section className="w-2/4">
                     <Logo />
                 </section>
             </main>

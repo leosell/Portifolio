@@ -1,10 +1,9 @@
 import Leo from '../../Leo.png'
-import './index.css'
 
 const Logo = () => {
     return (
-        <div className='Logo'>
-            <img src={Leo} alt='Leo' />
+        <div className=''>
+            <img  className= 'w-3/5 ml-28' src={Leo} alt='Leo' />
         </div>
     )
 }
