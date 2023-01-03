@@ -5,7 +5,7 @@ import { BsInstagram } from 'react-icons/bs'
 
 const Conteudo = () => {
     return (
-        <div className="flex flex-col justify-center w-full h-full m-6">
+        <div className="flex flex-col justify-center w-full h-full">
             <div className="flex flex-col ">
                 <h1 className="text-8xl skew-x-12 font-bold text-end my-4">Leonardo Sell</h1>
                 <h3 className="flex justify-end text-3xl">Desenvolvedor FullStack</h3>
