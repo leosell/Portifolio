@@ -16,7 +16,7 @@ const Conteudo = () => {
                     E desfrutar da liberdade que essa profissão fornece para todos os profissionais da área.
                 </h3>
                 
-                <div className='flex gap-3 py-2'>
+                <div className='flex gap-3 py-4'>
                     <a href="https://github.com/leosell" target='_blanck'><BsGithub size={40} className='#FFF hover:text-cinza' /></a>
                     <a href="https://www.linkedin.com/in/leonardo-cabral-sell-353ba71b5/" target='_blanck'><BsLinkedin size={40} className='#FFF hover:text-cinza' /></a>
                     <a href="https://www.instagram.com/leo_sell_/" target='_blanck'><BsInstagram size={40} className='#FFF hover:text-cinza' /></a>
