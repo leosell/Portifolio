@@ -9,6 +9,12 @@ module.exports = {
 
       height: {
         "tamanho-main": "857px"
+      },
+
+      colors: {
+        'menuHeader': '#663D3D',
+        'menuHeaderHover': '#B36B6B',
+        'cinza': '#A8ADAD'
       }
     },
   },

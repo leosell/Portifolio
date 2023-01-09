@@ -5,7 +5,7 @@ const MenuLink = ({ children, to }) => {
     const localizacao = useLocation()
 
     return (
-        <Link to={to} className={`${localizacao.pathname === to ? 'text-red-600' : ''}`}>
+        <Link to={to} className={`${localizacao.pathname === to ? 'text-menuHeader hover:text-menuHeaderHover' : ''}`}>
             { children }
         </Link>
     )
