@@ -8,7 +8,7 @@ const Pag404 = () => {
             <h3 className="text-2xl pb-20">We can't find the page you're looking for...</h3>
 
             <MenuLink to='/' className='text-red-500'>
-                Go back to home
+                Back to the beginning!
             </MenuLink>
         </main>
     )
