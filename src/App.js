@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Work from "./screens/Work/Work";
 import Writing from "./screens/Writing/Writing";
 import Contact from "./screens/Contact/Contact";
+import Pag404 from "./screens/Pag404";
 
 const App = () => {
     return (
@@ -13,11 +14,11 @@ const App = () => {
 
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                {/* <Route path="/work" element={<Work />} />
+                {/* <Route path="/about" element={<About />} />
+                <Route path="/work" element={<Work />} />
                 <Route path="/writing" element={<Writing />} />
                 <Route path="/contact" element={<Contact />} /> */}
-                <Route path="*" element={<div>Página não encontrada</div>} />
+                <Route path="*" element={<Pag404 />} />
             </Routes>
         </BrowserRouter>
     )

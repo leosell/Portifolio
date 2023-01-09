@@ -6,6 +6,10 @@ module.exports = {
       backgroundImage: {
         'logo-leo': "url('./assets/Reactangle\ 1.png')"
       },
+
+      height: {
+        "tamanho-main": "857px"
+      }
     },
   },
   plugins: [],
