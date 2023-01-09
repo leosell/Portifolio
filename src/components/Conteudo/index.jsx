@@ -1,4 +1,3 @@
-import { BiCopyright } from '@react-icons/all-files/bi/BiCopyright.esm'
 import { BsGithub } from 'react-icons/bs'
 import { BsLinkedin } from 'react-icons/bs'
 import { BsInstagram } from 'react-icons/bs'

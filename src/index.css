@@ -11,12 +11,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('../assets/background.png');
+  /* background-image: url('../assets/Rectangle.png'); */
+  /* background-image: url('../assets/background.png'); */
+  background-image: url('../assets/fundo_texturizado_2.jpg');
+  background-color: #000;
   background-size: 100%;
   background-repeat: no-repeat;
+  color: #FFF;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
