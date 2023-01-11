@@ -1,5 +1,6 @@
 import { useState } from "react"
-import api from "../../api"
+import Swal from "sweetalert2"
+// import api from "../../api"
 
 
 const Contact = () => {
@@ -10,16 +11,24 @@ const Contact = () => {
     const [ comments, setComments ] = useState('')
 
     const submit_contact = async () => {
-        try {
-            const authData = await api.post('/contact', {
-                name: name,
-                email: email,
-                tel: tel,
-                comments: comments
-            })
-        } catch (error) {
-            console.log(error)
-        }
+        Swal.fire({
+            position: 'center',
+            icon: 'warning',
+            title: 'Função em desenvolvimento...',
+            text: 'Em breve o mesmo estara em funcionamento',
+            showConfirmButton: false,
+            timer: 2500
+        })
+        // try {
+        //     const authData = await api.post('/contact', {
+        //         name: name,
+        //         email: email,
+        //         tel: tel,
+        //         comments: comments
+        //     })
+        // } catch (error) {
+        //     console.log(error)
+        // }
     }
 
     return (
@@ -68,6 +77,7 @@ const Contact = () => {
                     className="rounded border px-4 text-black outline-none placeholder:text-black hover:border-sky-500 hover:ring-2 focus:ring-2 focus:ring-sky-500"
                 />
                 <input
+                    onClick={submit_contact}
                     type='button'
                     value="Submit"
                     className="text-black font-medium bg-cyan-400 rounded h-10 cursor-pointer hover:bg-cyan-600/50 hover:font-bold hover:text-white"
