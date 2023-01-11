@@ -1,10 +1,17 @@
+import Logo from "../../components/Logo"
 
 
 const About = () => {
     return (
-        <>
-            About
-        </>
+        <main>
+            <section>
+                
+            </section>
+            
+            <section className="w-2/4">
+                <Logo />
+            </section>
+        </main>
     )
 }
 
