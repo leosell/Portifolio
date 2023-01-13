@@ -1,34 +1,42 @@
 import { useState } from "react"
 import Swal from "sweetalert2"
-// import api from "../../api"
+import api from "../../api"
 
 
 const Contact = () => {
 
     const [ name, setName ] = useState('')
     const [ email, setEmail ] = useState('')
-    const [ tel, setTel ] = useState('')
+    const [ telephone, setTelephone ] = useState('')
     const [ comments, setComments ] = useState('')
 
     const submit_contact = async () => {
-        Swal.fire({
-            position: 'center',
-            icon: 'warning',
-            title: 'Função em desenvolvimento...',
-            text: 'Em breve o mesmo estara em funcionamento',
-            showConfirmButton: false,
-            timer: 2500
-        })
-        // try {
-        //     const authData = await api.post('/contact', {
-        //         name: name,
-        //         email: email,
-        //         tel: tel,
-        //         comments: comments
-        //     })
-        // } catch (error) {
-        //     console.log(error)
-        // }
+        try {
+            const authData = await api.post('/contact', {
+                name: name,
+                email: email,
+                telephone: telephone,
+                comments: comments
+            })
+
+            if (authData.status === 200) {
+                Swal.fire({
+                    position: 'center',
+                    icon: 'success',
+                    title: 'E-mail enviado',
+                    text: 'Seu e-mail foi enviado para Leonardo Sell, assim que possivel ele irá responder o seu e-mail',
+                    showConfirmButton: false,
+                    timer: 3000
+                })
+            } else {
+                Swal.fire({
+                    position: 'center',
+                    icon: 'warning'
+                })
+            }
+        } catch (error) {
+            console.log(`Erro - ${error}`)
+        }
     }
 
     return (
@@ -59,8 +67,8 @@ const Contact = () => {
                 />
                 <input
                     required
-                    value={tel}
-                    onChange={(e) => setTel(e.target.value)}
+                    value={telephone}
+                    onChange={(e) => setTelephone(e.target.value)}
                     id="tel_contact"
                     type="tel"
                     placeholder="Contact Phone"
