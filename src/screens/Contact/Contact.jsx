@@ -43,8 +43,7 @@ const Contact = () => {
                 <input
                     required
                     value={name}
-                    onChange={setName}
-                    id="name_contact"
+                    onChange={(e) => setName(e.target.value)}
                     type="text"
                     placeholder="Name"
                     className="rounded border px-4 text-black outline-none h-10 placeholder:text-black hover:border-sky-500 hover:ring-2 focus:ring-2 focus:ring-sky-500"
@@ -52,7 +51,7 @@ const Contact = () => {
                 <input
                     required
                     value={email}
-                    onChange={setEmail}
+                    onChange={(e) => setEmail(e.target.value)}
                     id="email_contact"
                     type="email"
                     placeholder="Email"
@@ -61,7 +60,7 @@ const Contact = () => {
                 <input
                     required
                     value={tel}
-                    onChange={setTel}
+                    onChange={(e) => setTel(e.target.value)}
                     id="tel_contact"
                     type="tel"
                     placeholder="Contact Phone"
@@ -69,7 +68,7 @@ const Contact = () => {
                 />
                 <textarea
                     value={comments}
-                    onChange={setComments}
+                    onChange={(e) => setComments(e.target.value)}
                     id="comments_contact"
                     placeholder="Comments"
                     rows="4"
