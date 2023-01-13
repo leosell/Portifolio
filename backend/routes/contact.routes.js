@@ -1,5 +1,6 @@
 import express from 'express'
 import contact_model from '../contact.model.js'
+import cors from 'cors'
 
 const contact = express.Router()
 
