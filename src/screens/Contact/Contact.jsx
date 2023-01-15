@@ -12,30 +12,51 @@ const Contact = () => {
 
     const submit_contact = async () => {
         try {
-            const authData = await api.post('/contact', {
-                name: name,
-                email: email,
-                telephone: telephone,
-                comments: comments
-            })
-
-            if (authData.status === 200) {
+            if (name === '' || email === '' || telephone === 0) {
                 Swal.fire({
                     position: 'center',
-                    icon: 'success',
-                    title: 'E-mail enviado',
-                    text: 'Seu e-mail foi enviado para Leonardo Sell, assim que possivel ele irá responder o seu e-mail',
-                    showConfirmButton: false,
-                    timer: 3000
+                    icon: 'error',
+                    title: 'Preencha todos os dados',
+                    text: 'Você precisa preencher todos os dados necessários para enviar o e-mail!',
+                    showConfirmButton: true,
+                    showCancelButton: true
                 })
             } else {
-                Swal.fire({
-                    position: 'center',
-                    icon: 'warning'
+                const authData = await api.post('/contact', {
+                    name: name,
+                    email: email,
+                    telephone: telephone,
+                    comments: comments
                 })
+    
+                if (authData.status === 200) {
+                    Swal.fire({
+                        position: 'center',
+                        icon: 'success',
+                        title: 'E-mail enviado',
+                        text: 'Seu e-mail foi enviado para Leonardo Sell, assim que possivel ele irá responder o seu e-mail',
+                        showConfirmButton: false,
+                        timer: 3000
+                    })
+    
+                    setName('')
+                    setEmail('')
+                    setTelephone('')
+                    setComments('')
+                } else {
+                    Swal.fire({
+                        position: 'center',
+                        icon: 'warning'
+                    })
+    
+                    setName('')
+                    setEmail('')
+                    setTelephone('')
+                    setComments('')
+                }
             }
         } catch (error) {
-            console.log(`Erro - ${error}`)
+            console.log(error)
         }
     }
 
@@ -49,7 +70,6 @@ const Contact = () => {
                     <i>Preencha os campos para conversar melhor sobre projetos ou se quiser me contratar!!</i>
                 </h3>
                 <input
-                    required
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     type="text"
@@ -57,19 +77,15 @@ const Contact = () => {
                     className="rounded border px-4 text-black outline-none h-10 placeholder:text-black hover:border-sky-500 hover:ring-2 focus:ring-2 focus:ring-sky-500"
                 />
                 <input
-                    required
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    id="email_contact"
                     type="email"
                     placeholder="Email"
                     className="rounded border px-4 text-black outline-none h-10 placeholder:text-black hover:border-sky-500 hover:ring-2 focus:ring-2 focus:ring-sky-500"
                 />
                 <input
-                    required
                     value={telephone}
                     onChange={(e) => setTelephone(e.target.value)}
-                    id="tel_contact"
                     type="tel"
                     placeholder="Contact Phone"
                     className="rounded border px-4 text-black outline-none h-10 placeholder:text-black hover:border-sky-500 hover:ring-2 focus:ring-2 focus:ring-sky-500"
@@ -77,7 +93,6 @@ const Contact = () => {
                 <textarea
                     value={comments}
                     onChange={(e) => setComments(e.target.value)}
-                    id="comments_contact"
                     placeholder="Comments"
                     rows="4"
                     cols="20"
