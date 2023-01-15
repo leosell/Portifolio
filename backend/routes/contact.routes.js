@@ -1,10 +1,10 @@
 import express from 'express'
 import contact_model from '../contact.model.js'
-import cors from 'cors'
+import cors from 'cors';
 
 const contact = express.Router()
 
-contact.post('/', async (req, res) => {
+contact.post('/', cors(), async (req, res) => {
     const { name, email, telephone, comments } = req.body
 
     const newLead = new contact_model({ name, email, telephone, comments })
