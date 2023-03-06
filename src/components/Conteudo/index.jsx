@@ -7,7 +7,7 @@ const Conteudo = () => {
         <div className="flex flex-col justify-center w-full h-full">
             <div className="flex flex-col ">
                 <h1 className="text-8xl skew-x-12 font-bold text-end my-4">Leonardo Sell</h1>
-                <h3 className="flex justify-end text-3xl">Desenvolvedor FullStack</h3>
+                <h3 className="flex justify-end text-3xl">Desenvolvedor Back-End</h3>
             </div>
 
             <div className="w-3/4 h-14 text-start m-16 pl-28">
