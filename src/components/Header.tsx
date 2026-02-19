@@ -1,50 +1,25 @@
+"use client";
 import React from "react";
-import {
-  NavigationMenu,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-} from "@/src/components/ui/navigation-menu";
 import Link from "next/link";
 
-type Menu = {
-  title?: string;
-  link?: string;
-  subMenu?: Menu[];
-}
-
-const menuList: Menu[] = [
-  {
-    title: "Home",
-    link: "#home",
-  },
-  {
-    title: "About",
-    link: "#about",
-  },
-  {
-    title: "Projects",
-    link: "#projects",
-  },
-  {
-    title: "Contact",
-    link: "#contact",
-  },
-];
-
 export const Header: React.FC = () => {
+  const uniqueHash = "#charevelacao123";
+  const currentHash = typeof window !== "undefined" ? window.location.hash : "";
+
   return (
-    <NavigationMenu className="w-full max-w-5xl mx-auto px-6 py-6 flex items-center justify-between">
-      <NavigationMenuList key={1} className="flex gap-6 items-center text-sm text-gray-300">
-        {menuList.map(({ title, link, subMenu }) => (
-          <NavigationMenuItem className="hover:underline cursor-pointer">
-            <NavigationMenuLink asChild>
-              <Link href={link}>{title}</Link>
-            </NavigationMenuLink>
-          </NavigationMenuItem>
-        ))}
-      </NavigationMenuList>
+    <header className="w-full max-w-5xl mx-auto px-6 py-6 flex items-center justify-between">
+      <nav className="flex gap-6 items-center text-sm text-gray-300">
+        <Link href="/#home" className="hover:underline cursor-pointer">Home</Link>
+        <Link href="/#sobre" className="hover:underline cursor-pointer">About</Link>
+        <Link href="/#projects" className="hover:underline cursor-pointer">Projects</Link>
+        <Link href="/#contact" className="hover:underline cursor-pointer">Contact</Link>
+        {currentHash === uniqueHash && (
+          <Link href="/convite-cha-revelacao" className="hover:underline cursor-pointer">
+            Convite Chá Revelação
+          </Link>
+        )}
+      </nav>
       <div className="text-sm text-gray-400">Backend Developer</div>
-    </NavigationMenu>
-  )
-}
+    </header>
+  );
+};
