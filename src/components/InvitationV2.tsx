@@ -8,7 +8,7 @@ const sparkleData = [
     delay: '0s',
     dur: '1.8s',
     size: 5,
-    color: '#ffffff'
+    color: '#c4b5fd'
   },
   {
     top: '4%',
@@ -16,7 +16,7 @@ const sparkleData = [
     delay: '0.4s',
     dur: '2.2s',
     size: 4,
-    color: '#fde68a'
+    color: '#a78bfa'
   },
   {
     top: '3%',
@@ -24,7 +24,7 @@ const sparkleData = [
     delay: '0.9s',
     dur: '1.6s',
     size: 5,
-    color: '#ffffff'
+    color: '#d8b4fe'
   },
   {
     top: '2%',
@@ -32,7 +32,7 @@ const sparkleData = [
     delay: '0.2s',
     dur: '2.4s',
     size: 4,
-    color: '#a5f3fc'
+    color: '#86efac'
   },
   {
     top: '5%',
@@ -40,7 +40,7 @@ const sparkleData = [
     delay: '1.1s',
     dur: '1.9s',
     size: 5,
-    color: '#ffffff'
+    color: '#c4b5fd'
   },
   {
     top: '9%',
@@ -48,7 +48,7 @@ const sparkleData = [
     delay: '0.6s',
     dur: '2.1s',
     size: 4,
-    color: '#fde68a'
+    color: '#a78bfa'
   },
   {
     top: '11%',
@@ -56,7 +56,7 @@ const sparkleData = [
     delay: '1.4s',
     dur: '1.7s',
     size: 3,
-    color: '#ffffff'
+    color: '#d8b4fe'
   },
   {
     top: '10%',
@@ -64,7 +64,7 @@ const sparkleData = [
     delay: '0.3s',
     dur: '2.3s',
     size: 4,
-    color: '#c4b5fd'
+    color: '#6ee7b7'
   },
   {
     top: '15%',
@@ -72,7 +72,7 @@ const sparkleData = [
     delay: '0.8s',
     dur: '1.5s',
     size: 4,
-    color: '#ffffff'
+    color: '#c4b5fd'
   },
   {
     top: '18%',
@@ -80,7 +80,7 @@ const sparkleData = [
     delay: '1.6s',
     dur: '2.0s',
     size: 3,
-    color: '#fde68a'
+    color: '#a78bfa'
   },
   {
     top: '20%',
@@ -88,7 +88,7 @@ const sparkleData = [
     delay: '0.1s',
     dur: '1.8s',
     size: 4,
-    color: '#ffffff'
+    color: '#d8b4fe'
   },
   {
     top: '22%',
@@ -96,7 +96,7 @@ const sparkleData = [
     delay: '1.2s',
     dur: '2.2s',
     size: 3,
-    color: '#a5f3fc'
+    color: '#86efac'
   },
   {
     top: '25%',
@@ -104,7 +104,7 @@ const sparkleData = [
     delay: '0.5s',
     dur: '1.6s',
     size: 4,
-    color: '#ffffff'
+    color: '#c4b5fd'
   },
   {
     top: '28%',
@@ -112,7 +112,7 @@ const sparkleData = [
     delay: '1.8s',
     dur: '2.4s',
     size: 3,
-    color: '#fde68a'
+    color: '#a78bfa'
   },
   {
     top: '32%',
@@ -120,7 +120,7 @@ const sparkleData = [
     delay: '0.7s',
     dur: '1.9s',
     size: 4,
-    color: '#ffffff'
+    color: '#d8b4fe'
   },
   {
     top: '35%',
@@ -128,7 +128,7 @@ const sparkleData = [
     delay: '1.3s',
     dur: '2.1s',
     size: 3,
-    color: '#c4b5fd'
+    color: '#6ee7b7'
   },
   {
     top: '38%',
@@ -136,7 +136,7 @@ const sparkleData = [
     delay: '0.4s',
     dur: '1.7s',
     size: 4,
-    color: '#ffffff'
+    color: '#c4b5fd'
   },
   {
     top: '40%',
@@ -144,7 +144,7 @@ const sparkleData = [
     delay: '1.0s',
     dur: '2.3s',
     size: 3,
-    color: '#fde68a'
+    color: '#a78bfa'
   },
   {
     top: '43%',
@@ -152,7 +152,7 @@ const sparkleData = [
     delay: '0.2s',
     dur: '1.5s',
     size: 4,
-    color: '#ffffff'
+    color: '#d8b4fe'
   },
   {
     top: '46%',
@@ -160,7 +160,7 @@ const sparkleData = [
     delay: '1.5s',
     dur: '2.0s',
     size: 3,
-    color: '#a5f3fc'
+    color: '#86efac'
   },
   {
     top: '50%',
@@ -168,7 +168,7 @@ const sparkleData = [
     delay: '0.8s',
     dur: '1.8s',
     size: 4,
-    color: '#ffffff'
+    color: '#c4b5fd'
   },
   {
     top: '52%',
@@ -176,7 +176,7 @@ const sparkleData = [
     delay: '1.7s',
     dur: '2.2s',
     size: 3,
-    color: '#fde68a'
+    color: '#a78bfa'
   },
   {
     top: '55%',
@@ -184,7 +184,7 @@ const sparkleData = [
     delay: '0.3s',
     dur: '1.6s',
     size: 4,
-    color: '#ffffff'
+    color: '#d8b4fe'
   },
   {
     top: '58%',
@@ -192,7 +192,7 @@ const sparkleData = [
     delay: '1.1s',
     dur: '2.4s',
     size: 3,
-    color: '#c4b5fd'
+    color: '#6ee7b7'
   },
   {
     top: '62%',
@@ -200,7 +200,7 @@ const sparkleData = [
     delay: '0.6s',
     dur: '1.9s',
     size: 4,
-    color: '#ffffff'
+    color: '#c4b5fd'
   },
   {
     top: '65%',
@@ -208,7 +208,7 @@ const sparkleData = [
     delay: '1.4s',
     dur: '2.1s',
     size: 3,
-    color: '#fde68a'
+    color: '#a78bfa'
   },
   {
     top: '68%',
@@ -216,7 +216,7 @@ const sparkleData = [
     delay: '0.1s',
     dur: '1.7s',
     size: 4,
-    color: '#ffffff'
+    color: '#d8b4fe'
   },
   {
     top: '70%',
@@ -224,7 +224,7 @@ const sparkleData = [
     delay: '1.9s',
     dur: '2.3s',
     size: 3,
-    color: '#a5f3fc'
+    color: '#86efac'
   },
   {
     top: '73%',
@@ -232,7 +232,7 @@ const sparkleData = [
     delay: '0.5s',
     dur: '1.5s',
     size: 4,
-    color: '#ffffff'
+    color: '#c4b5fd'
   },
   {
     top: '76%',
@@ -240,7 +240,7 @@ const sparkleData = [
     delay: '1.2s',
     dur: '2.0s',
     size: 3,
-    color: '#fde68a'
+    color: '#a78bfa'
   },
   {
     top: '80%',
@@ -248,7 +248,7 @@ const sparkleData = [
     delay: '0.9s',
     dur: '1.8s',
     size: 4,
-    color: '#ffffff'
+    color: '#d8b4fe'
   },
   {
     top: '83%',
@@ -256,7 +256,7 @@ const sparkleData = [
     delay: '1.6s',
     dur: '2.2s',
     size: 3,
-    color: '#c4b5fd'
+    color: '#6ee7b7'
   },
   {
     top: '86%',
@@ -264,7 +264,7 @@ const sparkleData = [
     delay: '0.4s',
     dur: '1.6s',
     size: 4,
-    color: '#ffffff'
+    color: '#c4b5fd'
   },
   {
     top: '89%',
@@ -272,7 +272,7 @@ const sparkleData = [
     delay: '1.0s',
     dur: '2.4s',
     size: 3,
-    color: '#fde68a'
+    color: '#a78bfa'
   },
   {
     top: '92%',
@@ -280,7 +280,7 @@ const sparkleData = [
     delay: '0.7s',
     dur: '1.9s',
     size: 4,
-    color: '#ffffff'
+    color: '#d8b4fe'
   },
   {
     top: '95%',
@@ -288,7 +288,7 @@ const sparkleData = [
     delay: '1.3s',
     dur: '2.1s',
     size: 3,
-    color: '#a5f3fc'
+    color: '#86efac'
   },
   {
     top: '97%',
@@ -296,7 +296,7 @@ const sparkleData = [
     delay: '0.2s',
     dur: '1.7s',
     size: 4,
-    color: '#ffffff'
+    color: '#c4b5fd'
   },
   {
     top: '96%',
@@ -304,8 +304,9 @@ const sparkleData = [
     delay: '1.8s',
     dur: '2.3s',
     size: 3,
-    color: '#fde68a'
-  }];
+    color: '#a78bfa'
+  }
+];
 
 const heartData = [
   {
@@ -371,7 +372,6 @@ const heartData = [
     color: 'rgba(196,181,253,0.7)',
     size: 14
   },
-  // Extra hearts
   {
     top: '10%',
     left: '48%',
@@ -441,9 +441,9 @@ const heartData = [
     delay: '1.6s',
     color: 'rgba(153,246,228,0.5)',
     size: 10
-  }];
+  }
+];
 
-// SVG 4-pointed star sparkle
 function StarSparkle({
   x,
   y,
@@ -457,7 +457,8 @@ function StarSparkle({
     <g
       style={{
         animationDelay: delay
-      }}>
+      }}
+    >
 
       <path
         d={`M${x},${y - s} L${x + s * 0.2},${y - s * 0.2} L${x + s},${y} L${x + s * 0.2},${y + s * 0.2} L${x},${y + s} L${x - s * 0.2},${y + s * 0.2} L${x - s},${y} L${x - s * 0.2},${y - s * 0.2} Z`}
@@ -466,9 +467,10 @@ function StarSparkle({
         style={{
           animationDelay: delay,
           animationDuration: dur
-        }} />
-
-    </g>);
+        }}
+      />
+    </g>
+  );
 
 }
 
@@ -481,13 +483,15 @@ function Divider() {
           width: 40,
           background:
             'linear-gradient(to right, transparent, rgba(167,139,250,0.6))'
-        }} />
+        }}
+      />
 
       <span
         style={{
           color: '#a78bfa',
           fontSize: 12
-        }}>
+        }}
+      >
 
         ✦
       </span>
@@ -495,7 +499,8 @@ function Divider() {
         style={{
           color: '#d4af37',
           fontSize: 14
-        }}>
+        }}
+      >
 
         ♥
       </span>
@@ -503,7 +508,8 @@ function Divider() {
         style={{
           color: '#5eead4',
           fontSize: 12
-        }}>
+        }}
+      >
 
         ✦
       </span>
@@ -513,70 +519,51 @@ function Divider() {
           width: 40,
           background:
             'linear-gradient(to left, transparent, rgba(94,234,212,0.6))'
-        }} />
+        }}
+      />
 
     </div>);
+
 }
 
-export function Invitation() {
+export function InvitationV2() {
   return (
     <div
       className="relative w-full"
       style={{
         maxWidth: 420,
         margin: '0 auto'
-      }}>
+      }}
+    >
 
-      {/* Outer glow wrapper */}
       <div
         style={{
           borderRadius: 20,
-          padding: 3,
-          background:
-            'linear-gradient(135deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.8) 100%)',
+          padding: 2,
+          background: 'rgba(196,181,253,0.5)',
           boxShadow:
-            '0 8px 40px rgba(139,92,246,0.4), 0 4px 20px rgba(20,184,166,0.3)'
-        }}>
+            '0 8px 40px rgba(139,92,246,0.15), 0 2px 12px rgba(139,92,246,0.1)'
+        }}
+      >
 
-        {/* Main card */}
         <div
           className="relative overflow-hidden"
           style={{
             borderRadius: 18,
             background:
-              'linear-gradient(135deg, #c084fc 0%, #d8b4fe 20%, #ede9fe 40%, #f0fdf4 60%, #99f6e4 80%, #5eeaaa99 100%)',
+              'linear-gradient(160deg, #fdfbff 0%, #f8f4ff 40%, #f3f9ff 70%, #f0fdf8 100%)',
             minHeight: 680
-          }}>
+          }}
+        >
 
-          {/* Glitter overlay - dense dots */}
-          <div
-            className="absolute inset-0 pointer-events-none"
-            style={{
-              backgroundImage: `
-                radial-gradient(circle, rgba(255,255,255,0.9) 1px, transparent 1px),
-                radial-gradient(circle, rgba(255,255,255,0.7) 1px, transparent 1px),
-                radial-gradient(circle, rgba(255,255,255,0.8) 1px, transparent 1px),
-                radial-gradient(circle, rgba(255,255,255,0.6) 1px, transparent 1px),
-                radial-gradient(circle, rgba(255,255,255,0.9) 1px, transparent 1px),
-                radial-gradient(circle, rgba(255,255,255,0.7) 1px, transparent 1px),
-                radial-gradient(circle, rgba(255,255,255,0.8) 1px, transparent 1px),
-                radial-gradient(circle, rgba(255,255,255,0.6) 1px, transparent 1px)
-              `,
-              backgroundSize:
-                '37px 37px, 53px 53px, 29px 29px, 67px 67px, 43px 43px, 61px 61px, 31px 31px, 71px 71px',
-              backgroundPosition:
-                '0 0, 18px 18px, 9px 9px, 27px 27px, 5px 22px, 33px 11px, 15px 35px, 44px 6px'
-            }} />
-
-
-          {/* SVG sparkles layer */}
           <svg
             className="absolute inset-0 w-full h-full pointer-events-none"
             style={{
               zIndex: 1
             }}
             preserveAspectRatio="none"
-            viewBox="0 0 100 100">
+            viewBox="0 0 100 100"
+          >
 
             {sparkleData.map((s, i) =>
               <StarSparkle
@@ -591,7 +578,6 @@ export function Invitation() {
             )}
           </svg>
 
-          {/* Floating hearts */}
           {heartData.map((h, i) =>
             <span
               key={i}
@@ -604,35 +590,33 @@ export function Invitation() {
                 animationDelay: h.delay,
                 zIndex: 1,
                 lineHeight: 1
-              }}>
+              }}
+            >
 
               ♥
             </span>
           )}
 
-          {/* ── ORNATE FRAME ── */}
-          {/* Outer border */}
           <div
             className="absolute pointer-events-none"
             style={{
               inset: 10,
-              border: '2px solid rgba(255,255,255,0.85)',
+              border: '1.5px solid rgba(196,181,253,0.7)',
               borderRadius: 12,
               zIndex: 2
-            }} />
+            }}
+          />
 
-          {/* Inner border */}
           <div
             className="absolute pointer-events-none"
             style={{
               inset: 14,
-              border: '1px solid rgba(255,255,255,0.6)',
+              border: '1px solid rgba(196,181,253,0.4)',
               borderRadius: 9,
               zIndex: 2
-            }} />
+            }}
+          />
 
-
-          {/* Top scallop notch */}
           <div
             className="absolute pointer-events-none"
             style={{
@@ -640,21 +624,22 @@ export function Invitation() {
               left: '50%',
               transform: 'translateX(-50%)',
               zIndex: 3
-            }}>
+            }}
+          >
 
             <div
               style={{
                 width: 44,
                 height: 22,
-                background:
-                  'linear-gradient(135deg, #c084fc 0%, #d8b4fe 50%, #99f6e4 100%)',
+                background: 'linear-gradient(160deg, #fdfbff 0%, #f8f4ff 100%)',
                 borderRadius: '0 0 50% 50%',
-                border: '2px solid rgba(255,255,255,0.85)',
+                border: '1.5px solid rgba(196,181,253,0.7)',
                 borderTop: 'none'
-              }} />
+              }}
+            />
 
           </div>
-          {/* Bottom scallop notch */}
+
           <div
             className="absolute pointer-events-none"
             style={{
@@ -662,21 +647,22 @@ export function Invitation() {
               left: '50%',
               transform: 'translateX(-50%)',
               zIndex: 3
-            }}>
+            }}
+          >
 
             <div
               style={{
                 width: 44,
                 height: 22,
-                background:
-                  'linear-gradient(135deg, #99f6e4 0%, #d8b4fe 50%, #c084fc 100%)',
+                background: 'linear-gradient(160deg, #f0fdf8 0%, #f8f4ff 100%)',
                 borderRadius: '50% 50% 0 0',
-                border: '2px solid rgba(255,255,255,0.85)',
+                border: '1.5px solid rgba(196,181,253,0.7)',
                 borderBottom: 'none'
-              }} />
+              }}
+            />
 
           </div>
-          {/* Left scallop notch */}
+
           <div
             className="absolute pointer-events-none"
             style={{
@@ -684,20 +670,22 @@ export function Invitation() {
               top: '50%',
               transform: 'translateY(-50%)',
               zIndex: 3
-            }}>
+            }}
+          >
 
             <div
               style={{
                 width: 22,
                 height: 44,
-                background: 'linear-gradient(135deg, #c084fc 0%, #d8b4fe 100%)',
+                background: 'linear-gradient(160deg, #fdfbff 0%, #f8f4ff 100%)',
                 borderRadius: '0 50% 50% 0',
-                border: '2px solid rgba(255,255,255,0.85)',
+                border: '1.5px solid rgba(196,181,253,0.7)',
                 borderLeft: 'none'
-              }} />
+              }}
+            />
 
           </div>
-          {/* Right scallop notch */}
+
           <div
             className="absolute pointer-events-none"
             style={{
@@ -705,111 +693,69 @@ export function Invitation() {
               top: '50%',
               transform: 'translateY(-50%)',
               zIndex: 3
-            }}>
+            }}
+          >
 
             <div
               style={{
                 width: 22,
                 height: 44,
-                background: 'linear-gradient(135deg, #99f6e4 0%, #d8b4fe 100%)',
+                background: 'linear-gradient(160deg, #f3f9ff 0%, #f8f4ff 100%)',
                 borderRadius: '50% 0 0 50%',
-                border: '2px solid rgba(255,255,255,0.85)',
+                border: '1.5px solid rgba(196,181,253,0.7)',
                 borderRight: 'none'
-              }} />
+              }}
+            />
 
           </div>
 
-          {/* Gold heart on top of frame */}
-          <div
-            className="absolute pointer-events-none"
-            style={{
-              top: -14,
-              left: '50%',
-              transform: 'translateX(-50%)',
-              zIndex: 10
-            }}>
-
-            <div
-              style={{
-                width: 36,
-                height: 36,
-                background:
-                  'linear-gradient(135deg, #a78bfa 0%, #d4af37 50%, #5eead4 100%)',
-                borderRadius: '50%',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                boxShadow: '0 2px 8px rgba(167,139,250,0.5)',
-                fontSize: 18,
-                border: '2px solid rgba(255,255,255,0.8)'
-              }}>
-
-              <span
-                style={{
-                  lineHeight: 1
-                }}>
-
-                💜
-              </span>
-            </div>
-          </div>
-
-          {/* ── CONTENT ── */}
           <div
             className="relative text-center"
             style={{
               zIndex: 5,
-              padding: '44px 28px 28px'
-            }}>
+              padding: '36px 28px 28px'
+            }}
+          >
 
-            {/* Title */}
             <h1
               className="font-great-vibes"
               style={{
                 fontSize: 52,
                 lineHeight: 1.1,
                 color: '#4c1d95',
-                textShadow: '0 1px 3px rgba(255,255,255,0.6)',
                 marginBottom: 4
-              }}>
+              }}
+            >
 
-              Convite Especial
+              Chá Revelação
             </h1>
-            <span
-              style={{
-                fontSize: 18,
-                marginLeft: 4
-              }}>
 
-              ✨
-            </span>
-
-            {/* Subtitle */}
             <p
               className="font-nunito"
               style={{
-                color: '#374151',
+                color: '#4b5563',
                 fontSize: 14,
                 lineHeight: 1.6,
                 marginTop: 12
-              }}>
+              }}
+            >
 
               Nosso coração está cheio de amor...
             </p>
             <p
               className="font-nunito"
               style={{
-                color: '#374151',
+                color: '#4b5563',
                 fontSize: 14,
                 lineHeight: 1.6
-              }}>
+              }}
+            >
 
               E chegou a hora de descobrir:
             </p>
 
             <Divider />
 
-            {/* Guria ou Guri */}
             <div
               style={{
                 display: 'flex',
@@ -817,7 +763,8 @@ export function Invitation() {
                 justifyContent: 'center',
                 gap: 12,
                 margin: '8px 0 16px'
-              }}>
+              }}
+            >
 
               <span
                 className="font-great-vibes"
@@ -825,41 +772,42 @@ export function Invitation() {
                   fontSize: 46,
                   fontWeight: 700,
                   color: '#7c3aed',
-                  fontStyle: 'italic'
-                }}>
+                }}
+              >
 
                 Guria
               </span>
               <span
-                className="font-great-vibes"
+                className="font-nunito"
                 style={{
                   fontSize: 18,
                   color: '#6b7280'
-                }}>
+                }}
+              >
 
                 ou
               </span>
               <span
-                className="font-dancing"
+                className="font-great-vibes"
                 style={{
                   fontSize: 46,
                   fontWeight: 700,
                   color: '#0d9488',
-                  fontStyle: 'italic'
-                }}>
+                }}
+              >
 
                 Guri?
               </span>
             </div>
 
-            {/* Event details */}
             <div
               style={{
                 display: 'flex',
                 flexDirection: 'column',
                 gap: 8,
                 margin: '16px 0'
-              }}>
+              }}
+            >
 
               {[
                 {
@@ -882,7 +830,8 @@ export function Invitation() {
                       alignItems: 'center',
                       justifyContent: 'center',
                       gap: 8
-                    }}>
+                    }}
+                  >
 
                     <Icon
                       style={{
@@ -898,7 +847,8 @@ export function Invitation() {
                         fontSize: 14,
                         color: '#374151',
                         fontWeight: 600
-                      }}>
+                      }}
+                    >
 
                       {text}
                     </span>
@@ -906,15 +856,15 @@ export function Invitation() {
                 )}
             </div>
 
-            {/* Body message */}
             <p
               className="font-nunito"
               style={{
-                color: '#374151',
+                color: '#4b5563',
                 fontSize: 14,
                 lineHeight: 1.7,
                 margin: '12px 0'
-              }}>
+              }}
+            >
 
               Será um dia inesquecível, e queremos
               <br />
@@ -924,54 +874,54 @@ export function Invitation() {
                   fontStyle: 'italic',
                   color: '#6d28d9',
                   fontWeight: 600
-                }}>
+                }}
+              >
 
                 emoção
               </em>
               !
             </p>
 
-            <Divider />
-
-            {/* Signature */}
             <p
               className="font-nunito"
               style={{
-                fontSize: 26,
-                fontWeight: 700,
                 color: '#6d28d9',
+                fontSize: 14,
+                fontWeight: 600,
+                lineHeight: 1.7,
                 marginBottom: 4
-              }}>
+              }}
+            >
 
-              Com carinho,
-            </p>
-            <p
-              className="font-nunito"
-              style={{
-                fontSize: 18,
-                fontWeight: 700,
-                // color: '#6d28d9'
-                color: '#1f2937',
-              }}>
-
-              Leo S. & Julia M. 🤍
+              Esperamos vocês
             </p>
 
             <Divider />
 
-            {/* RSVP Box */}
+            <p
+              className="font-nunito"
+              style={{
+                fontSize: 20,
+                color: '#6d28d9'
+              }}
+            >
+
+              Leo & Julia 🤍
+            </p>
+
+            <Divider />
+
             <div
               style={{
                 margin: '8px auto 8px',
                 maxWidth: 260,
                 padding: '12px 20px',
                 borderRadius: 14,
-                background:
-                  'linear-gradient(135deg, #fefce8 0%, #fef9c3 50%, #fefce8 100%)',
-                border: '1.5px solid rgba(212,197,169,0.8)',
-                boxShadow:
-                  '0 2px 12px rgba(0,0,0,0.06), inset 0 1px 0 rgba(255,255,255,0.8)'
-              }}>
+                background: 'rgba(220,252,231,0.6)',
+                border: '1.5px solid rgba(134,239,172,0.6)',
+                boxShadow: '0 2px 8px rgba(0,0,0,0.04)'
+              }}
+            >
 
               <p
                 className="font-nunito"
@@ -979,7 +929,8 @@ export function Invitation() {
                   color: '#374151',
                   fontSize: 13,
                   lineHeight: 1.6
-                }}>
+                }}
+              >
 
                 Por favor, confirme sua presença
                 <br />
@@ -990,13 +941,15 @@ export function Invitation() {
             <div
               style={{
                 marginTop: 8
-              }}>
+              }}
+            >
 
               <span
                 style={{
                   color: '#a78bfa',
                   fontSize: 12
-                }}>
+                }}
+              >
 
                 ♥ ♥
               </span>
@@ -1004,6 +957,6 @@ export function Invitation() {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>);
+
 }
