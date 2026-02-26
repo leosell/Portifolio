@@ -1051,7 +1051,7 @@ const ConviteChaRevelacaoPage = () => {
                                         },
                                         {
                                             Icon: MapPinIcon,
-                                            text: 'Rod. Baldicero Filomeno, 13714'
+                                            text: 'Rua José do Patrocinio, 529 - Estreito'
                                         },].
                                         map(({ Icon, text }) =>
                                             <div
