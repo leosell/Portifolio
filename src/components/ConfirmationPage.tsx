@@ -537,7 +537,7 @@ export function ConfirmationPage({ convite, conviteEnquete }: { convite: Convite
             <div className='p-2'>
               <h2 className='text-black text-lg'>Endereço Atualizado:</h2>
               <p className='text-[#9ca3af] text-sm'>Rua José do Patrocinio, 529 - Estreito</p>
-              <p className='text-[#9ca3af] text-sm'>A partir das 10h</p>
+              <p className='text-[#9ca3af] text-sm'>28/02 à partir das 10h</p>
             </div>
             <p
               className="font-nunito"
