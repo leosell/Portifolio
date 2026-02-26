@@ -1047,7 +1047,7 @@ const ConviteChaRevelacaoPage = () => {
                                         },
                                         {
                                             Icon: ClockIcon,
-                                            text: 'A partir das 15:30'
+                                            text: 'A partir das 10h'
                                         },
                                         {
                                             Icon: MapPinIcon,
