@@ -8,7 +8,7 @@ export const ProfileCard: React.FC = () => {
                 <div className="flex-1">
                     <h1 className="text-5xl font-bold leading-tight">Leonardo Sell</h1>
                     <p className="text-2xl text-gray-200 mt-2">Backend Developer</p>
-                    <p className="mt-3 text-gray-400">Java &middot; Spring Boot &middot; MySQL &middot; Node.js</p>
+                    <p className="mt-3 text-gray-400">Java &middot; Spring Boot &middot; MySQL &middot; Node.js &middot; TypeScript</p>
 
                     <p className="mt-6 text-gray-300 max-w-2xl leading-relaxed">
                         Ajudando empresas a construir sistemas escaláveis, seguros e de alto desempenho.
