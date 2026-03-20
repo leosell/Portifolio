@@ -3,12 +3,33 @@ import { ProfileCard } from "../components/ProfileCard";
 import { ProjectCard } from "../components/ProjectCard";
 import { Header } from "../components/Header";
 
-const projects = [
+type TagsType = "Java"
+    | "Spring Boot"
+    | "Node.js"
+    | "React"
+    | "TypeScript"
+    | "JavaScript"
+    | "Docker";
+
+export interface ProjectProps {
+    title: string;
+    desc: string;
+    tags: TagsType[];
+    link?: string;
+}
+
+const projects: ProjectProps[] = [
       {
         title: "Gerenciador de Estacionamento (Ignite Park&Go)",
         desc: "Sistema de gerenciamento de estacionamento completo para o dono de estacionamento e cliente. Focado em agilidade e segurança!",
-        tags: ["Java", "Spring Boot", "Node.js", "React", "Typescript"]
+        tags: ["Java", "Spring Boot", "Node.js", "React", "TypeScript"],
       },
+      {
+        title: "Bot de Discord",
+        desc: "Bot para poder ajudar empresas para gerenciar o jira de uma forma mais facil e também receber dados importantes programadas para um canal especifico.",
+        tags: ["TypeScript", "JavaScript", "Docker"],
+        link: "https://github.com/leosell/bot-discord"
+      }
 ];
 
 export default function Home() {
